@@ -54,3 +54,17 @@ A card visual at the top displays the currently selected product name, so it is 
 Three gauge charts display actual vs. target values for orders, revenue, and profit. Gauges are particularly effective here because they communicate not just raw performance numbers but also how close the product is to meeting its targets — something a plain KPI card cannot convey as intuitively.
 
 The Profit Trend chart tracks monthly profit over time, revealing whether the product's profitability is growing, stable, or declining. The Return Trend chart monitors return volumes over the same period, which is important for flagging potential product quality or customer satisfaction issues before they escalate.
+## Page 4 — Customer Detail
+<img width="1118" height="626" alt="image" src="https://github.com/user-attachments/assets/3c77eb1e-ef8f-4426-a143-5e5e7e8d07b9" />
+
+The Customer Detail page shifts the focus from products and sales to the people behind the purchases, providing a demographic and behavioral breakdown of the customer base.
+
+The Customer Base Trend chart tracks the total number of active customers over time. The sharp growth visible from mid-2021 is one of the most striking insights in the entire dashboard, indicating a significant expansion event worth investigating further.
+
+Two donut charts add demographic context — one breaking down orders by customer occupation type, and another segmenting customers by income level. These are valuable for understanding who AdventureWorks' core buyer is and for informing targeted marketing strategies.
+
+Three KPI cards summarize the customer landscape at a glance: revenue per customer, total unique customers, and a spotlight on the top revenue client — including their name, total orders, and total revenue. Highlighting the top client adds a human element and is useful for account management purposes.
+
+The Top 100 Customers table ranks the highest-value customers by revenue, displaying their customer key, name, order count, and total revenue. This enables the business to identify and prioritize its most valuable relationships.
+
+Slicers for year range, country, and product category allow all visuals on the page to be filtered simultaneously, making it easy to analyze customer behavior within specific markets or time periods.
