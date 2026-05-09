@@ -1,4 +1,4 @@
-# Projet description
+# Project description
 End-to-end Power BI project covering data modeling, DAX measures, and interactive dashboard design. Based on the AdventureWorks dataset from the Maven Analytics Udemy course.
 # Dataset
 The dataset used in this project represents transactional data for AdventureWorks Cycles, a fictional global manufacturer and seller of cycling equipment and accessories.
@@ -17,3 +17,13 @@ Dimension Tables
 The data model follows a snowflake schema, with the Sales and Returns fact tables at the center, connected to their respective dimension tables via one-to-many relationships. The product hierarchy is normalized across three separate tables — Products, Subcategories, and Categories — which is the characteristic that distinguishes it from a pure star schema.
 All relationships were configured as single-directional, following best practices for Power BI data modeling to ensure predictable filter propagation and optimal report performance.
 <img width="1181" height="617" alt="image" src="https://github.com/user-attachments/assets/8daa5155-e172-44ee-b044-21a3ca6e0704" />
+# Dashboard description
+## Page 1 — Executive Dashboard
+<img width="1278" height="716" alt="image" src="https://github.com/user-attachments/assets/fc82eed1-ca81-4008-9e7b-c9d578a7feba" />
+The Executive Dashboard serves as the top-level overview of the business, designed to give decision-makers a quick but comprehensive picture of company performance at a glance.
+KPI Cards at the top display the four most critical business metrics — total revenue, profit, orders, and return rate — providing an immediate health check of the business without needing to dig deeper.
+Weekly Revenue Chart tracks revenue over time from January 2020 to early 2022, with a trend line overlay to make the overall growth direction immediately visible despite short-term fluctuations. This is essential for spotting seasonal patterns and evaluating whether the business is on an upward trajectory.
+Orders by Category breaks down order volume across Accessories, Bikes, and Clothing, helping identify which product lines drive the most customer activity — useful context for inventory and marketing decisions.
+Product Performance Table provides a granular view of individual products, showing total orders, revenue, and return rate side by side. This allows quick identification of both top-selling products and potential quality issues flagged by elevated return rates.
+Monthly KPI Cards for revenue, orders, and returns each include a comparison to the previous month, making it easy to assess short-term momentum at a glance.
+Slicers for date range, country, and product category allow the entire page to be filtered interactively, making the dashboard relevant for different regions, time periods, or product lines without switching pages.
