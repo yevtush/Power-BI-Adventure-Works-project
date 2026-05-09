@@ -27,3 +27,8 @@ Orders by Category breaks down order volume across Accessories, Bikes, and Cloth
 Product Performance Table provides a granular view of individual products, showing total orders, revenue, and return rate side by side. This allows quick identification of both top-selling products and potential quality issues flagged by elevated return rates.
 Monthly KPI Cards for revenue, orders, and returns each include a comparison to the previous month, making it easy to assess short-term momentum at a glance.
 Slicers for date range, country, and product category allow the entire page to be filtered interactively, making the dashboard relevant for different regions, time periods, or product lines without switching pages.
+## Page 2 — Geographic Sales Map
+<img width="1282" height="713" alt="image" src="https://github.com/user-attachments/assets/06fc8374-3a36-40f0-8369-85d465766a44" />
+The Geographic Sales Map provides a spatial view of AdventureWorks' global order distribution, making it easy to understand where the business has the strongest market presence.
+The bubble map plots sales territories across three regions — Europe, North America, and the Pacific — with bubble size proportional to total orders. This allows instant visual identification of the highest-volume markets without reading through tables of numbers.
+At the top, three region buttons (Europe, North America, Pacific) act as interactive filters, zooming the view to the selected region for a more focused analysis. This is a cleaner and more intuitive navigation solution compared to a traditional dropdown slicer.
